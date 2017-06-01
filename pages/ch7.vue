@@ -5,7 +5,7 @@
     <div class="block">
     
 
-        <h1 class="title">Chapter 7. Scales</h1>
+        <h1 class="title">Chapter 7. Scales</h1>
 
     <p class="it"><strong>"Las escalas son las funciones que se asignan desde un dominio de entrada a un rango de salida".</strong></p>
     <p class="p" id="scales_are_fun">“Scales are functions that map from an input domain to an output range.”<a id="ix_scales" class="indexterm" href=""></a></p>
@@ -60,12 +60,12 @@
 
 
       <p class="it">Podemos visualizar el dominio y el rango como ejes correspondientes, de lado a lado, como se muestra en la Figura 7-1.</p>
-      <p class="p" id="we_can_visualiz">We can visualize the domain and range as corresponding axes, side-by-side, displayed in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#input_output_axes" title="Figure 7-1. An input domain and an output range, visualized as parallel axes">Figure 7-1</a>.</p>
+      <p class="p" id="we_can_visualiz">We can visualize the domain and range as corresponding axes, side-by-side, displayed in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#input_output_axes" title="Figure 7-1. An input domain and an output range, visualized as parallel axes">Figure 7-1</a>.</p>
 
 <div>
             <img src="/static/fHijhiLmT1-img1.png" alt="An input domain and an output range, visualized as parallel axes"/>
 
-        <p class="fig">Figure 7-1. An input domain and an output range, visualized as parallel axes</p>
+        <p class="fig">Figure 7-1. An input domain and an output range, visualized as parallel axes</p>
 
 </div>
       <p class="it">Una cosa más: para evitar que el cerebro pueda mezclar la terminología dominio de entrada y rango de salida, me gustaría proponer un poco de ejercicio. Cuando digo "de entrada", se dice "dominio". Entonces digo "de salida", y se dice "rango". Listo? Bueno:</p>
@@ -427,14 +427,14 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
         <p class="it">Chequee el código de trabajo en 02_scaled_plot.html. Visualmente, el resultado en la Figura 7-2 es decepcionantemente similar a nuestro diagrama de dispersión original! Sin embargo, estamos haciendo más progresos que podrían ser aparentes.</p>
 
 
-        <p class="p" id="check_out_the_w">Check out the working code in <span class="emphasis"><em>02_scaled_plot.html</em></span>. Visually, the result in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_using_x_and_y_scales" title="Figure 7-2. Scatterplot using x and y scales">Figure 7-2</a> is disappointingly similar to our original scatterplot! Yet we are making more progress than might be apparent.<a id="id524683" class="indexterm" href=""></a></p>
+        <p class="p" id="check_out_the_w">Check out the working code in <span class="emphasis"><em>02_scaled_plot.html</em></span>. Visually, the result in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_using_x_and_y_scales" title="Figure 7-2. Scatterplot using x and y scales">Figure 7-2</a> is disappointingly similar to our original scatterplot! Yet we are making more progress than might be apparent.<a id="id524683" class="indexterm" href=""></a></p>
         <div>
 
               <img src="/static/fHijhiLmT1-img2.png" alt="Scatterplot using x and y scales"/>
 
 
 
-          <p class="fig">Figure 7-2. Scatterplot using x and y scales</p>
+          <p class="fig">Figure 7-2. Scatterplot using x and y scales</p>
 
 
         </div>
@@ -464,14 +464,14 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
       <p class="it">Ver 03_scaled_plot_inverted.html para el código que resulta en la Figura 7-3.</p>
 
 
-      <p class="p" id="see__scaled_p">See <span class="emphasis"><em>03_scaled_plot_inverted.html</em></span> for the code that results in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_y_scale_inverted" title="Figure 7-3. Scatterplot with y scale inverted">Figure 7-3</a>.</p>
+      <p class="p" id="see__scaled_p">See <span class="emphasis"><em>03_scaled_plot_inverted.html</em></span> for the code that results in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_y_scale_inverted" title="Figure 7-3. Scatterplot with y scale inverted">Figure 7-3</a>.</p>
 
       <div>
 
             <img src="/static/fHijhiLmT1-img3.png" alt="Scatterplot with y scale inverted"/>
 
 
-        <p class="fig">Figure 7-3. Scatterplot with <strong>y</strong> scale inverted</p>
+        <p class="fig">Figure 7-3. Scatterplot with <strong>y</strong> scale inverted</p>
 
         <p class="fig">Diagrama de dispersión <strong>y</strong> con escala invertida</p>
 
@@ -510,18 +510,18 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
 
       <p class="it">Esto nos debe proveer de 20 píxeles de espacio extra a la izquierda, derecha, arriba, y los bordes inferiores de la SVG. Y lo hace (ver Figura 7-4)!</p>
 
-      <p class="p" id="this_should_pro">This should provide us with 20 pixels of extra room on the left, right, top, and bottom edges of the SVG. And it does (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_padding" title="Figure 7-4. Scatterplot with padding">Figure 7-4</a>)!</p>
+      <p class="p" id="this_should_pro">This should provide us with 20 pixels of extra room on the left, right, top, and bottom edges of the SVG. And it does (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_padding" title="Figure 7-4. Scatterplot with padding">Figure 7-4</a>)!</p>
 
                 <div>
 
-            <img src="/static/fHijhiLmT1-img4.png" alt="Scatterplot with padding"/>        <p class="fig">Figure 7-4. Scatterplot with padding</p>
+            <img src="/static/fHijhiLmT1-img4.png" alt="Scatterplot with padding"/>        <p class="fig">Figure 7-4. Scatterplot with padding</p>
 
 
       </div>
 
       <p class="it">Sin embargo, las etiquetas de texto en el extremo derecho todavía están cortadas, así que el doble de la cantidad de relleno de <code class="literal">xScale</code> en el lado derecho para multiplicar por dos para conseguir el resultado que se muestra en la Figura 7-5:</p>
 
-      <p class="p" id="but_the_text_la">But the text labels on the far right are still getting cut off, so I’ll double the amount of <code class="literal">xScale</code>’s padding on the right side by multiplying by two to achieve the result shown in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_more_padding" title="Figure 7-5. Scatterplot with more padding">Figure 7-5</a>:</p>
+      <p class="p" id="but_the_text_la">But the text labels on the far right are still getting cut off, so I’ll double the amount of <code class="literal">xScale</code>’s padding on the right side by multiplying by two to achieve the result shown in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_more_padding" title="Figure 7-5. Scatterplot with more padding">Figure 7-5</a>:</p>
 
       
       <pre class="programlisting" data-language="javascript" id="rangepadding_id2">.range([padding, w - padding * 2]);</pre>
@@ -532,7 +532,7 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
             <img src="/static/fHijhiLmT1-img5.png" alt="Scatterplot with more padding"/>
 
 
-        <p class="fig">Figure 7-5. Scatterplot with more padding</p>
+        <p class="fig">Figure 7-5. Scatterplot with more padding</p>
 
         <p class="fig">Figura 7-5. Diagrama de dispersión con más padding</p>
 
@@ -565,13 +565,13 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
       
       <p class="it">Voila: La figura 7-6 muestra nuestra primera escala utilizada para una propiedad visual que no sea un valor del eje. (Ver 05_scaled_plot_radii.html.)</p>
 
-      <p class="p" id="voila_shows_ou">Voila: <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_scaled_radii" title="Figure 7-6. Scatterplot with scaled radii">Figure 7-6</a> shows our first scale used for a visual property other than an axis value. (See <span class="emphasis"><em>05_scaled_plot_radii.html</em></span>.)</p>
+      <p class="p" id="voila_shows_ou">Voila: <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_scaled_radii" title="Figure 7-6. Scatterplot with scaled radii">Figure 7-6</a> shows our first scale used for a visual property other than an axis value. (See <span class="emphasis"><em>05_scaled_plot_radii.html</em></span>.)</p>
 
       
       <div>            <img src="/static/fHijhiLmT1-img6.png" alt="Scatterplot with scaled radii"/>
 
 
-        <p class="fig">Figure 7-6. Scatterplot with scaled radio</p>
+        <p class="fig">Figure 7-6. Scatterplot with scaled radio</p>
 
 
       </div>
@@ -583,14 +583,14 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
       
       <p class="it">¡Boom! Chequee el archivo 06_scaled_plot_big.html. Observe cómo todos los viejos puntos en la Figura 7-7 mantuvieron sus posiciones relativas, pero han migrado más juntos, hacia abajo y hacia la izquierda, para dar cabida a los recién llegados en la esquina superior derecha.</p>
 
-      <p class="p" id="boom_check_out">Boom! Check out <span class="emphasis"><em>06_scaled_plot_big.html</em></span>. Notice how all the old points in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_big_numbers_added" title="Figure 7-7. Scatterplot with big numbers added">Figure 7-7</a> maintained their relative positions but have migrated closer together, down and to the left, to accommodate the newcomer in the top-right corner.</p>
+      <p class="p" id="boom_check_out">Boom! Check out <span class="emphasis"><em>06_scaled_plot_big.html</em></span>. Notice how all the old points in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_big_numbers_added" title="Figure 7-7. Scatterplot with big numbers added">Figure 7-7</a> maintained their relative positions but have migrated closer together, down and to the left, to accommodate the newcomer in the top-right corner.</p>
 
       
       <div>            <img src="/static/fHijhiLmT1-img7.png" alt="Scatterplot with big numbers added"/>
 
   
 
-        <p class="fig">Figure 7-7. Scatterplot with big numbers added</p>
+        <p class="fig">Figure 7-7. Scatterplot with big numbers added</p>
 
         <p class="fig">Figura 7-7. Diagrama de dispersión con grandes números añadidos</p>
 
@@ -598,10 +598,10 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
 
       <p class="it">Y ahora, una última revelación: ahora podemos cambiar fácilmente el tamaño de nuestra SVG, y escalarla en consecuencia. En la Figura 7-8, he aumentado el valor de <strong>h</strong> de 100 a 300 y no se hizo ningún otro cambio.</p>
 
-      <p class="p" id="and_now_one_fi">And now, one final revelation: we can now very easily change the size of our SVG, and <span class="emphasis"><em>everything scales accordingly</em></span>. In <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Large_scaled_scatterplot" title="Figure 7-8. Large, scaled scatterplot">Figure 7-8</a>, I’ve increased the value of <code class="literal">h</code> from <code class="literal">100</code> to <code class="literal">300</code> and made <span class="emphasis"><em>no other changes</em></span>.</p>
+      <p class="p" id="and_now_one_fi">And now, one final revelation: we can now very easily change the size of our SVG, and <span class="emphasis"><em>everything scales accordingly</em></span>. In <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Large_scaled_scatterplot" title="Figure 7-8. Large, scaled scatterplot">Figure 7-8</a>, I’ve increased the value of <code class="literal">h</code> from <code class="literal">100</code> to <code class="literal">300</code> and made <span class="emphasis"><em>no other changes</em></span>.</p>
 
         
-        <div>            <img src="/static/fHijhiLmT1-img8.png" alt="Large, scaled scatterplot"/>        <p class="fig">Figure 7-8. Large, scaled scatterplot</p>
+        <div>            <img src="/static/fHijhiLmT1-img8.png" alt="Large, scaled scatterplot"/>        <p class="fig">Figure 7-8. Large, scaled scatterplot</p>
 
         <p class="fig">Figura 7-8. Gran diagrama de dispersión reducido</p>
 
@@ -782,7 +782,7 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
 
 
 
-        <p class="fig">From <a href="http://esripress.esri.com/display/index.cfm?fuseaction=display&amp;websiteID=190" data-href="http://esripress.esri.com/display/index.cfm?fuseaction=display&amp;websiteID=190" class="markup--anchor markup--figure-anchor" rel="nofollow"><em class="markup--em markup--figure-em">Semiology of Graphics</em></a>, colorized by the author.</p>
+        <p class="fig">From <a href="http://esripress.esri.com/display/index.cfm?fuseaction=display&amp;websiteID=190" data-href="http://esripress.esri.com/display/index.cfm?fuseaction=display&amp;websiteID=190" class="markup--anchor markup--figure-anchor" rel="nofollow"><em class="markup--em markup--figure-em">Semiology of Graphics</em></a>, colorized by the author.</p>
 
       </div>
 <p class="it">Por lo tanto, una escala es una función que toma un valor abstracto de datos, tales como la masa de un diamante en quilates, y devuelve un valor visual tal como la posición horizontal de un punto en píxeles. Con dos escalas (uno para cada x y y ), tenemos la base para un diagrama de dispersión.</p>
@@ -799,7 +799,7 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
 
 
 
-        <p class="fig">The relationship between diamond mass <em class="markup--em markup--figure-em">and</em> price. <a href="http://bl.ocks.org/mbostock/ebb45892cc6ec5e6c902" data-href="http://bl.ocks.org/mbostock/ebb45892cc6ec5e6c902" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
+        <p class="fig">The relationship between diamond mass <em class="markup--em markup--figure-em">and</em> price. <a href="http://bl.ocks.org/mbostock/ebb45892cc6ec5e6c902" data-href="http://bl.ocks.org/mbostock/ebb45892cc6ec5e6c902" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
 
       </div>
 
@@ -946,7 +946,7 @@ function type(d) {
 
 
 
-        <p class="fig">The previous scatterplot modified to use log scales. <a href="http://bl.ocks.org/mbostock/c3034eef9d73b5fdf274" data-href="http://bl.ocks.org/mbostock/c3034eef9d73b5fdf274" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
+        <p class="fig">The previous scatterplot modified to use log scales. <a href="http://bl.ocks.org/mbostock/c3034eef9d73b5fdf274" data-href="http://bl.ocks.org/mbostock/c3034eef9d73b5fdf274" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
 
 
     </div>
@@ -1074,7 +1074,7 @@ function type(d) {
 
 
 
-        <p class="fig">Brushing a scatterplot matrix. <a href="http://bl.ocks.org/mbostock/4063663" data-href="http://bl.ocks.org/mbostock/4063663" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
+        <p class="fig">Brushing a scatterplot matrix. <a href="http://bl.ocks.org/mbostock/4063663" data-href="http://bl.ocks.org/mbostock/4063663" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
 
       </div>
       <pre>&lt;!DOCTYPE html&gt;
@@ -1272,7 +1272,7 @@ function cross(a, b) {
 
        
 
-        <p class="p">The frequency of English letters. <a href="http://bl.ocks.org/mbostock/946ddf8a32b3b660ffd8" data-href="http://bl.ocks.org/mbostock/946ddf8a32b3b660ffd8" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
+        <p class="p">The frequency of English letters. <a href="http://bl.ocks.org/mbostock/946ddf8a32b3b660ffd8" data-href="http://bl.ocks.org/mbostock/946ddf8a32b3b660ffd8" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
 
   
       <pre>&lt;!DOCTYPE html&gt;
@@ -1391,7 +1391,7 @@ d3.requestTsv("data.tsv", function(d) {
 
       
 <p class="fig">Población en 2008. Desde vamos a hacer un mapa de la burbuja.</p>
-        <p class="fig">Population in 2008. From <a href="http://bost.ocks.org/mike/bubble-map/" data-href="http://bost.ocks.org/mike/bubble-map/" class="markup--anchor markup--figure-anchor" rel="nofollow">Let’s Make a Bubble Map</a>.</p>
+        <p class="fig">Population in 2008. From <a href="http://bost.ocks.org/mike/bubble-map/" data-href="http://bost.ocks.org/mike/bubble-map/" class="markup--anchor markup--figure-anchor" rel="nofollow">Let’s Make a Bubble Map</a>.</p>
 
       </div>
 
@@ -1421,7 +1421,7 @@ d3.requestTsv("data.tsv", function(d) {
 
         
 <p class="fig">El desempleo en 2008, utilizando el magma, viridis y cubehelix. Los colores más oscuros indican una tasa de desempleo. </p>
-        <p class="fig">Unemployment in 2008, using magma, viridis and cubehelix. Darker colors indicate a higher unemployment rate. <a href="http://bl.ocks.org/mbostock/4060606" data-href="http://bl.ocks.org/mbostock/4060606" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
+        <p class="fig">Unemployment in 2008, using magma, viridis and cubehelix. Darker colors indicate a higher unemployment rate. <a href="http://bl.ocks.org/mbostock/4060606" data-href="http://bl.ocks.org/mbostock/4060606" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
 
       </div>
 
@@ -4216,13 +4216,13 @@ Así que, ahí va.</p>
 
 
 
-                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.data(y.ticks(4)) // 20, 40, 60 and 80 </code></p>
+                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.data(y.ticks(4)) // 20, 40, 60 and 80 </code></p>
 
                   
 
 
 
-                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.enter().append(</code><code class="jscript string">"svg:line"</code><code class="jscript plain">);</code></p>
+                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.enter().append(</code><code class="jscript string">"svg:line"</code><code class="jscript plain">);</code></p>
 
                   
 
@@ -4234,19 +4234,19 @@ Así que, ahí va.</p>
 
 
 
-                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.attr(</code><code class="jscript string">"x1"</code><code class="jscript plain">,0).attr(</code><code class="jscript string">"x2"</code><code class="jscript plain">,5)</code></p>
+                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.attr(</code><code class="jscript string">"x1"</code><code class="jscript plain">,0).attr(</code><code class="jscript string">"x2"</code><code class="jscript plain">,5)</code></p>
 
                   
 
 
 
-                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.attr(</code><code class="jscript string">"y1"</code><code class="jscript plain">,y).attr(</code><code class="jscript string">"y2"</code><code class="jscript plain">,y)  // short and simple.</code></p>
+                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.attr(</code><code class="jscript string">"y1"</code><code class="jscript plain">,y).attr(</code><code class="jscript string">"y2"</code><code class="jscript plain">,y)  // short and simple.</code></p>
 
                   
 
 
 
-                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.attr(</code><code class="jscript string">"stroke"</code><code class="jscript plain">,</code><code class="jscript string">"black"</code><code class="jscript plain">);</code></p>
+                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.attr(</code><code class="jscript string">"stroke"</code><code class="jscript plain">,</code><code class="jscript string">"black"</code><code class="jscript plain">);</code></p>
 
                 </div>
               </td>
@@ -4874,13 +4874,13 @@ Las escalas ordinales son muy útiles para marcas de posicionamiento a lo largo 
 
 
 
-                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.domain([</code><code class="jscript string">"Sunday"</code><code class="jscript plain">,</code><code class="jscript string">"Monday"</code><code class="jscript plain">,</code><code class="jscript string">"Tuesday"</code><code class="jscript plain">,</code><code class="jscript string">"Wednesday"</code><code class="jscript plain">,</code><code class="jscript string">"Thursday"</code><code class="jscript plain">,</code><code class="jscript string">"Friday"</code><code class="jscript plain">,</code><code class="jscript string">"Saturday"</code><code class="jscript plain">]) // 7 items </code></p>
+                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.domain([</code><code class="jscript string">"Sunday"</code><code class="jscript plain">,</code><code class="jscript string">"Monday"</code><code class="jscript plain">,</code><code class="jscript string">"Tuesday"</code><code class="jscript plain">,</code><code class="jscript string">"Wednesday"</code><code class="jscript plain">,</code><code class="jscript string">"Thursday"</code><code class="jscript plain">,</code><code class="jscript string">"Friday"</code><code class="jscript plain">,</code><code class="jscript string">"Saturday"</code><code class="jscript plain">]) // 7 items </code></p>
 
                   
 
 
 
-                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.rangeBands([0,120]);</code></p>
+                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.rangeBands([0,120]);</code></p>
 
                   
 
@@ -5008,7 +5008,7 @@ Esos métodos reemplazan los métodos Protovis .split () y .splitBanded (). </p>
 
 
 
-                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.domain([</code><code class="jscript string">"Sunday"</code><code class="jscript plain">,</code><code class="jscript string">"Monday"</code><code class="jscript plain">,</code><code class="jscript string">"Tuesday"</code><code class="jscript plain">,</code><code class="jscript string">"Wednesday"</code><code class="jscript plain">,</code><code class="jscript string">"Thursday"</code><code class="jscript plain">,</code><code class="jscript string">"Friday"</code><code class="jscript plain">,</code><code class="jscript string">"Saturday"</code><code class="jscript plain">]);</code></p>
+                  <p class="p"><code class="jscript spaces">  </code><code class="jscript plain">.domain([</code><code class="jscript string">"Sunday"</code><code class="jscript plain">,</code><code class="jscript string">"Monday"</code><code class="jscript plain">,</code><code class="jscript string">"Tuesday"</code><code class="jscript plain">,</code><code class="jscript string">"Wednesday"</code><code class="jscript plain">,</code><code class="jscript string">"Thursday"</code><code class="jscript plain">,</code><code class="jscript string">"Friday"</code><code class="jscript plain">,</code><code class="jscript string">"Saturday"</code><code class="jscript plain">]);</code></p>
 
                   
 
@@ -5651,7 +5651,7 @@ Puede utilizar .toString() para obtener de nuevo en formato RGB hexadecimal (dec
 
 
 
-        <h1 class="title">Chapter 7. Scales</h1>
+        <h1 class="title">Chapter 7. Scales</h1>
 
     <p class="it"><strong>"Las escalas son las funciones que se asignan desde un dominio de entrada a un rango de salida".</strong></p>
     <p class="p" id="scales_are_fun">“Scales are functions that map from an input domain to an output range.”<a id="ix_scales" class="indexterm" href=""></a></p>
@@ -5706,12 +5706,12 @@ Puede utilizar .toString() para obtener de nuevo en formato RGB hexadecimal (dec
 
 
       <p class="it">Podemos visualizar el dominio y el rango como ejes correspondientes, de lado a lado, como se muestra en la Figura 7-1.</p>
-      <p class="p" id="we_can_visualiz">We can visualize the domain and range as corresponding axes, side-by-side, displayed in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#input_output_axes" title="Figure 7-1. An input domain and an output range, visualized as parallel axes">Figure 7-1</a>.</p>
+      <p class="p" id="we_can_visualiz">We can visualize the domain and range as corresponding axes, side-by-side, displayed in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#input_output_axes" title="Figure 7-1. An input domain and an output range, visualized as parallel axes">Figure 7-1</a>.</p>
 
 <div>
             <img src="/static/fHijhiLmT1-img1.png" alt="An input domain and an output range, visualized as parallel axes"/>
 
-        <p class="fig">Figure 7-1. An input domain and an output range, visualized as parallel axes</p>
+        <p class="fig">Figure 7-1. An input domain and an output range, visualized as parallel axes</p>
 
 </div>
       <p class="it">Una cosa más: para evitar que el cerebro pueda mezclar la terminología dominio de entrada y rango de salida, me gustaría proponer un poco de ejercicio. Cuando digo "de entrada", se dice "dominio". Entonces digo "de salida", y se dice "rango". Listo? Bueno:</p>
@@ -6098,7 +6098,7 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
         <p class="it">Chequee el código de trabajo en 02_scaled_plot.html. Visualmente, el resultado en la Figura 7-2 es decepcionantemente similar a nuestro diagrama de dispersión original! Sin embargo, estamos haciendo más progresos que podrían ser aparentes.</p>
 
 
-        <p class="p" id="check_out_the_w">Check out the working code in <span class="emphasis"><em>02_scaled_plot.html</em></span>. Visually, the result in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_using_x_and_y_scales" title="Figure 7-2. Scatterplot using x and y scales">Figure 7-2</a> is disappointingly similar to our original scatterplot! Yet we are making more progress than might be apparent.<a id="id524683" class="indexterm" href=""></a></p>
+        <p class="p" id="check_out_the_w">Check out the working code in <span class="emphasis"><em>02_scaled_plot.html</em></span>. Visually, the result in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_using_x_and_y_scales" title="Figure 7-2. Scatterplot using x and y scales">Figure 7-2</a> is disappointingly similar to our original scatterplot! Yet we are making more progress than might be apparent.<a id="id524683" class="indexterm" href=""></a></p>
        
 
         <div>
@@ -6106,7 +6106,7 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
               <img src="/static/fHijhiLmT1-img2.png" alt="Scatterplot using x and y scales"/>
 
 
-          <p class="fig">Figure 7-2. Scatterplot using x and y scales</p>
+          <p class="fig">Figure 7-2. Scatterplot using x and y scales</p>
 
     </div>
 
@@ -6139,7 +6139,7 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
       <p class="it">Ver 03_scaled_plot_inverted.html para el código que resulta en la Figura 7-3.</p>
 
 
-      <p class="p" id="see__scaled_p">See <span class="emphasis"><em>03_scaled_plot_inverted.html</em></span> for the code that results in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_y_scale_inverted" title="Figure 7-3. Scatterplot with y scale inverted">Figure 7-3</a>.</p>
+      <p class="p" id="see__scaled_p">See <span class="emphasis"><em>03_scaled_plot_inverted.html</em></span> for the code that results in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_y_scale_inverted" title="Figure 7-3. Scatterplot with y scale inverted">Figure 7-3</a>.</p>
 
 
 
@@ -6148,7 +6148,7 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
             <img src="/static/fHijhiLmT1-img3.png" alt="Scatterplot with y scale inverted"/>
 
 
-        <p class="fig">Figure 7-3. Scatterplot with <strong>y</strong> scale inverted</p>
+        <p class="fig">Figure 7-3. Scatterplot with <strong>y</strong> scale inverted</p>
 
         <p class="fig">Diagrama de dispersión <strong>y</strong> con escala invertida</p>
 
@@ -6187,20 +6187,20 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
 
       <p class="it">Esto nos debe proveer de 20 píxeles de espacio extra a la izquierda, derecha, arriba, y los bordes inferiores de la SVG. Y lo hace (ver Figura 7-4)!</p>
 
-      <p class="p" id="this_should_pro">This should provide us with 20 pixels of extra room on the left, right, top, and bottom edges of the SVG. And it does (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_padding" title="Figure 7-4. Scatterplot with padding">Figure 7-4</a>)!</p>
+      <p class="p" id="this_should_pro">This should provide us with 20 pixels of extra room on the left, right, top, and bottom edges of the SVG. And it does (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_padding" title="Figure 7-4. Scatterplot with padding">Figure 7-4</a>)!</p>
 
                 <div>
 
             <img src="/static/fHijhiLmT1-img4.png" alt="Scatterplot with padding"/>        
 
-            <p class="fig">Figure 7-4. Scatterplot with padding</p>
+            <p class="fig">Figure 7-4. Scatterplot with padding</p>
 
 
       </div>
 
       <p class="it">Sin embargo, las etiquetas de texto en el extremo derecho todavía están cortadas, así que el doble de la cantidad de relleno de <code class="literal">xScale</code> en el lado derecho para multiplicar por dos para conseguir el resultado que se muestra en la Figura 7-5:</p>
 
-      <p class="p" id="but_the_text_la">But the text labels on the far right are still getting cut off, so I’ll double the amount of <code class="literal">xScale</code>’s padding on the right side by multiplying by two to achieve the result shown in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_more_padding" title="Figure 7-5. Scatterplot with more padding">Figure 7-5</a>:</p>
+      <p class="p" id="but_the_text_la">But the text labels on the far right are still getting cut off, so I’ll double the amount of <code class="literal">xScale</code>’s padding on the right side by multiplying by two to achieve the result shown in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_more_padding" title="Figure 7-5. Scatterplot with more padding">Figure 7-5</a>:</p>
 
       
       <pre class="programlisting" data-language="javascript" id="rangepadding_id2">.range([padding, w - padding * 2]);</pre>
@@ -6211,7 +6211,7 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
             <img src="/static/fHijhiLmT1-img5.png" alt="Scatterplot with more padding"/>
 
 
-        <p class="fig">Figure 7-5. Scatterplot with more padding</p>
+        <p class="fig">Figure 7-5. Scatterplot with more padding</p>
 
         <p class="fig">Figura 7-5. Diagrama de dispersión con más padding</p>
 
@@ -6246,13 +6246,13 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
       
       <p class="it">Voila: La figura 7-6 muestra nuestra primera escala utilizada para una propiedad visual que no sea un valor del eje. (Ver 05_scaled_plot_radii.html.)</p>
 
-      <p class="p" id="voila_shows_ou">Voila: <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_scaled_radii" title="Figure 7-6. Scatterplot with scaled radii">Figure 7-6</a> shows our first scale used for a visual property other than an axis value. (See <span class="emphasis"><em>05_scaled_plot_radii.html</em></span>.)</p>
+      <p class="p" id="voila_shows_ou">Voila: <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_scaled_radii" title="Figure 7-6. Scatterplot with scaled radii">Figure 7-6</a> shows our first scale used for a visual property other than an axis value. (See <span class="emphasis"><em>05_scaled_plot_radii.html</em></span>.)</p>
 
       
       <div>            <img src="/static/fHijhiLmT1-img6.png" alt="Scatterplot with scaled radii"/>
 
 
-        <p class="fig">Figure 7-6. Scatterplot with scaled radio</p>
+        <p class="fig">Figure 7-6. Scatterplot with scaled radio</p>
 
 
       </div>
@@ -6264,14 +6264,14 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
       
       <p class="it">¡Boom! Chequee el archivo 06_scaled_plot_big.html. Observe cómo todos los viejos puntos en la Figura 7-7 mantuvieron sus posiciones relativas, pero han migrado más juntos, hacia abajo y hacia la izquierda, para dar cabida a los recién llegados en la esquina superior derecha.</p>
 
-      <p class="p" id="boom_check_out">Boom! Check out <span class="emphasis"><em>06_scaled_plot_big.html</em></span>. Notice how all the old points in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_big_numbers_added" title="Figure 7-7. Scatterplot with big numbers added">Figure 7-7</a> maintained their relative positions but have migrated closer together, down and to the left, to accommodate the newcomer in the top-right corner.</p>
+      <p class="p" id="boom_check_out">Boom! Check out <span class="emphasis"><em>06_scaled_plot_big.html</em></span>. Notice how all the old points in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Scatterplot_with_big_numbers_added" title="Figure 7-7. Scatterplot with big numbers added">Figure 7-7</a> maintained their relative positions but have migrated closer together, down and to the left, to accommodate the newcomer in the top-right corner.</p>
 
       
       <div>            <img src="/static/fHijhiLmT1-img7.png" alt="Scatterplot with big numbers added"/>
 
   
 
-        <p class="fig">Figure 7-7. Scatterplot with big numbers added</p>
+        <p class="fig">Figure 7-7. Scatterplot with big numbers added</p>
 
         <p class="fig">Figura 7-7. Diagrama de dispersión con grandes números añadidos</p>
 
@@ -6279,10 +6279,10 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
 
       <p class="it">Y ahora, una última revelación: ahora podemos cambiar fácilmente el tamaño de nuestra SVG, y escalarla en consecuencia. En la Figura 7-8, he aumentado el valor de <strong>h</strong> de 100 a 300 y no se hizo ningún otro cambio.</p>
 
-      <p class="p" id="and_now_one_fi">And now, one final revelation: we can now very easily change the size of our SVG, and <span class="emphasis"><em>everything scales accordingly</em></span>. In <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Large_scaled_scatterplot" title="Figure 7-8. Large, scaled scatterplot">Figure 7-8</a>, I’ve increased the value of <code class="literal">h</code> from <code class="literal">100</code> to <code class="literal">300</code> and made <span class="emphasis"><em>no other changes</em></span>.</p>
+      <p class="p" id="and_now_one_fi">And now, one final revelation: we can now very easily change the size of our SVG, and <span class="emphasis"><em>everything scales accordingly</em></span>. In <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch07.html#Large_scaled_scatterplot" title="Figure 7-8. Large, scaled scatterplot">Figure 7-8</a>, I’ve increased the value of <code class="literal">h</code> from <code class="literal">100</code> to <code class="literal">300</code> and made <span class="emphasis"><em>no other changes</em></span>.</p>
 
         
-        <div>            <img src="/static/fHijhiLmT1-img8.png" alt="Large, scaled scatterplot"/>        <p class="fig">Figure 7-8. Large, scaled scatterplot</p>
+        <div>            <img src="/static/fHijhiLmT1-img8.png" alt="Large, scaled scatterplot"/>        <p class="fig">Figure 7-8. Large, scaled scatterplot</p>
 
         <p class="fig">Figura 7-8. Gran diagrama de dispersión reducido</p>
 
@@ -6462,7 +6462,7 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
 
 
 
-        <p class="fig">From <a href="http://esripress.esri.com/display/index.cfm?fuseaction=display&amp;websiteID=190" data-href="http://esripress.esri.com/display/index.cfm?fuseaction=display&amp;websiteID=190" class="markup--anchor markup--figure-anchor" rel="nofollow"><em class="markup--em markup--figure-em">Semiology of Graphics</em></a>, colorized by the author.</p>
+        <p class="fig">From <a href="http://esripress.esri.com/display/index.cfm?fuseaction=display&amp;websiteID=190" data-href="http://esripress.esri.com/display/index.cfm?fuseaction=display&amp;websiteID=190" class="markup--anchor markup--figure-anchor" rel="nofollow"><em class="markup--em markup--figure-em">Semiology of Graphics</em></a>, colorized by the author.</p>
 
       </div>
 <p class="it">Por lo tanto, una escala es una función que toma un valor abstracto de datos, tales como la masa de un diamante en quilates, y devuelve un valor visual tal como la posición horizontal de un punto en píxeles. Con dos escalas (uno para cada x y y ), tenemos la base para un diagrama de dispersión.</p>
@@ -6478,7 +6478,7 @@ d3.max(dataset);  // Returns [85, 21].  What???</pre>
 
 
 
-        <p class="fig">The relationship between diamond mass <em class="markup--em markup--figure-em">and</em> price. <a href="http://bl.ocks.org/mbostock/ebb45892cc6ec5e6c902" data-href="http://bl.ocks.org/mbostock/ebb45892cc6ec5e6c902" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
+        <p class="fig">The relationship between diamond mass <em class="markup--em markup--figure-em">and</em> price. <a href="http://bl.ocks.org/mbostock/ebb45892cc6ec5e6c902" data-href="http://bl.ocks.org/mbostock/ebb45892cc6ec5e6c902" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
 
       </div>
 
@@ -6625,7 +6625,7 @@ function type(d) {
 
 
 
-        <p class="fig">The previous scatterplot modified to use log scales. <a href="http://bl.ocks.org/mbostock/c3034eef9d73b5fdf274" data-href="http://bl.ocks.org/mbostock/c3034eef9d73b5fdf274" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
+        <p class="fig">The previous scatterplot modified to use log scales. <a href="http://bl.ocks.org/mbostock/c3034eef9d73b5fdf274" data-href="http://bl.ocks.org/mbostock/c3034eef9d73b5fdf274" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
 
 
     </div>
@@ -6754,7 +6754,7 @@ function type(d) {
 
 
 
-        <p class="fig">Brushing a scatterplot matrix. <a href="http://bl.ocks.org/mbostock/4063663" data-href="http://bl.ocks.org/mbostock/4063663" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
+        <p class="fig">Brushing a scatterplot matrix. <a href="http://bl.ocks.org/mbostock/4063663" data-href="http://bl.ocks.org/mbostock/4063663" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
 
       </div>
       <pre>&lt;!DOCTYPE html&gt;
@@ -6952,7 +6952,7 @@ function cross(a, b) {
 
        
 
-        <p class="p">The frequency of English letters. <a href="http://bl.ocks.org/mbostock/946ddf8a32b3b660ffd8" data-href="http://bl.ocks.org/mbostock/946ddf8a32b3b660ffd8" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
+        <p class="p">The frequency of English letters. <a href="http://bl.ocks.org/mbostock/946ddf8a32b3b660ffd8" data-href="http://bl.ocks.org/mbostock/946ddf8a32b3b660ffd8" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
 
       </div>
       <pre>&lt;!DOCTYPE html&gt;
@@ -7072,7 +7072,7 @@ d3.requestTsv("data.tsv", function(d) {
 
       
 <p class="fig">Población en 2008. Desde vamos a hacer un mapa de la burbuja.</p>
-        <p class="fig">Population in 2008. From <a href="http://bost.ocks.org/mike/bubble-map/" data-href="http://bost.ocks.org/mike/bubble-map/" class="markup--anchor markup--figure-anchor" rel="nofollow">Let’s Make a Bubble Map</a>.</p>
+        <p class="fig">Population in 2008. From <a href="http://bost.ocks.org/mike/bubble-map/" data-href="http://bost.ocks.org/mike/bubble-map/" class="markup--anchor markup--figure-anchor" rel="nofollow">Let’s Make a Bubble Map</a>.</p>
 
       </div>
 
@@ -7102,7 +7102,7 @@ d3.requestTsv("data.tsv", function(d) {
 
         
 <p class="fig">El desempleo en 2008, utilizando el magma, viridis y cubehelix. Los colores más oscuros indican una tasa de desempleo. </p>
-        <p class="fig">Unemployment in 2008, using magma, viridis and cubehelix. Darker colors indicate a higher unemployment rate. <a href="http://bl.ocks.org/mbostock/4060606" data-href="http://bl.ocks.org/mbostock/4060606" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
+        <p class="fig">Unemployment in 2008, using magma, viridis and cubehelix. Darker colors indicate a higher unemployment rate. <a href="http://bl.ocks.org/mbostock/4060606" data-href="http://bl.ocks.org/mbostock/4060606" class="markup--anchor markup--figure-anchor" rel="nofollow">View source.</a></p>
 
       
 
@@ -7282,7 +7282,6 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-
 .block {
                           border-radius: 4px;
                           overflow: hidden;
@@ -7303,7 +7302,6 @@ ul {
                           color: #2D0D0D;
                           line-height: 1.1;
                           padding: 4.7em;
-
 }
                 .programlisting {
                           border-radius: 2px;
@@ -7329,17 +7327,14 @@ ul {
                           text-align: left;
                           font-size: 25px;
 }
-
                 .home {
                         margin: 1.5em 0;
                         
                     }
-
                     h1 {
                         color: #867452;
                         font-size: 60px;
                     }
-
                     h2 {
                         color: #867452;
                         font-size: 40px;
@@ -7353,8 +7348,6 @@ ul {
                         color: #867452;
                         font-size: 25px;
                     }
-
-
                     .it {
                         color: brown;
                         font-size: 24px;
@@ -7375,7 +7368,6 @@ ul {
                         letter-spacing: 0.04em;
                         text-align: center;
                     }
-
                     pre {display: block;
                     font-family: monospace;
                     white-space: pre;
@@ -7389,14 +7381,12 @@ ul {
                         padding:1px;
                         font-weight:normal;
                     }
-
                     .interno {
                     font-family: verdana;
                     font-style: italic;
                     color: #395C73;
                     font-size: 24px;    
                     }
-
 a {
   color: #42b983;
 }

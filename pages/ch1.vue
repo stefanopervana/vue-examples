@@ -10,7 +10,7 @@
 
       <div>
 
-        <h1 class="title">Chapter 1. Introduction</h1>
+        <h1 class="title">Chapter 1. Introduction</h1>
 
       </div>
 
@@ -46,7 +46,7 @@
 
 <p class="it">Más literalmente, la visualización es un proceso de mapping de la información a efectos visuales. Hemos elaborado normas que interpretan los datos y expresar sus valores como propiedades visuales. Por ejemplo, el humilde gráfico de barras en la figura 1-1 se genera a partir de una regla muy sencilla: los valores más grandes se asignan en forma de barras más altas.</p>
 
-      <p class="p" id="more_literally">More literally, visualization is a process of <span class="emphasis"><em>mapping</em></span> information to visuals. We craft rules that interpret data and express its values as visual properties. For example, the humble bar chart in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch01.html#data_values_mapped_to_visuals" title="Figure 1-1. Data values mapped to visuals">Figure 1-1</a> is generated from a very simple rule: larger values are <span class="emphasis"><em>mapped</em></span> as taller bars.<a id="id483388" class="indexterm" href=""></a></p>
+      <p class="p" id="more_literally">More literally, visualization is a process of <span class="emphasis"><em>mapping</em></span> information to visuals. We craft rules that interpret data and express its values as visual properties. For example, the humble bar chart in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch01.html#data_values_mapped_to_visuals" title="Figure 1-1. Data values mapped to visuals">Figure 1-1</a> is generated from a very simple rule: larger values are <span class="emphasis"><em>mapped</em></span> as taller bars.<a id="id483388" class="indexterm" href=""></a></p>
 
       <div class="figure" id="data_values_mapped_to_visuals">
 
@@ -60,11 +60,11 @@
 
         </div>
 <p class="fig">Figura 1-1. Los valores de datos se asignan a elementos visuales.</p>
-<p class="fig">Figure 1-1. Data values mapped to visuals</p>
+<p class="fig">Figure 1-1. Data values mapped to visuals</p>
 
       </div>
 <p class="it">Las visualizaciones más complejas se generan a partir de conjuntos de datos más complejos que la secuencia de números mostrada en la Figura 1-1 y conjuntos más complejos de reglas de asignación.</p>
-      <p class="p" id="more_complex_vi">More complex visualizations are generated from datasets more complex than the sequence of numbers shown in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch01.html#data_values_mapped_to_visuals" title="Figure 1-1. Data values mapped to visuals">Figure 1-1</a> and more complex sets of mapping rules.</p>
+      <p class="p" id="more_complex_vi">More complex visualizations are generated from datasets more complex than the sequence of numbers shown in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch01.html#data_values_mapped_to_visuals" title="Figure 1-1. Data values mapped to visuals">Figure 1-1</a> and more complex sets of mapping rules.</p>
 
 
     </div>
@@ -228,7 +228,7 @@
       </div>
 <p class="it">Si alguna de esas cosas le es desconocida o poco clara, no tema. Es posible que quieran pasar más tiempo con el capítulo 3, que cubre lo que realmente necesita saber antes de sumergirse en D3.</p>
 
-<p class="p" id="if_any_of_those">If any of those things are unknown or unclear, don’t fear. You might just want to spend more time with <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch03.html" title="Chapter 3. Technology Fundamentals">Chapter 3</a>, which covers what you really need to know before diving into D3.</p>
+<p class="p" id="if_any_of_those">If any of those things are unknown or unclear, don’t fear. You might just want to spend more time with <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch03.html" title="Chapter 3. Technology Fundamentals">Chapter 3</a>, which covers what you really need to know before diving into D3.</p>
 
     </div>
 
@@ -299,7 +299,7 @@ chapter_08
 …</pre>
 <p class="it">Los archivos están organizados por capítulo, por lo que en el capítulo 9, cuando me refiero a 01_bar_chart.html, sabe que puede encontrar ese archivo en la ubicación correspondiente: d3-libro / chapter_9 / 01_bar_chart.html.</p>
 
-<p class="p" id="files_are_organ">Files are organized by chapter, so in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch09.html" title="Chapter 9. Updates, Transitions, and Motion">Chapter 9</a> when I reference <span class="emphasis"><em>01_bar_chart.html</em></span>, know that you can find that file in the corresponding location: <span class="emphasis"><em>d3-book/chapter_9/01_bar_chart.html</em></span>.</p>
+<p class="p" id="files_are_organ">Files are organized by chapter, so in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch09.html" title="Chapter 9. Updates, Transitions, and Motion">Chapter 9</a> when I reference <span class="emphasis"><em>01_bar_chart.html</em></span>, know that you can find that file in the corresponding location: <span class="emphasis"><em>d3-book/chapter_9/01_bar_chart.html</em></span>.</p>
 
 <p class="it">Usted es bienvenido a copiar, adaptar, modificar y volver a utilizar el código de ejemplo en estos tutoriales para cualquier propósito no comercial.</p>
 
@@ -334,7 +334,6 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-
 .block {
                           border-radius: 4px;
                           overflow: hidden;
@@ -355,7 +354,6 @@ ul {
                           color: #2D0D0D;
                           line-height: 1.1;
                           padding: 4.7em;
-
 }
                 .programlisting {
                           border-radius: 2px;
@@ -381,17 +379,14 @@ ul {
                           text-align: left;
                           font-size: 25px;
 }
-
                 .home {
                         margin: 1.5em 0;
                         
                     }
-
                     h1 {
                         color: #867452;
                         font-size: 60px;
                     }
-
                     h2 {
                         color: #867452;
                         font-size: 40px;
@@ -405,8 +400,6 @@ ul {
                         color: #867452;
                         font-size: 25px;
                     }
-
-
                     .it {
                         color: brown;
                         font-size: 24px;
@@ -427,7 +420,6 @@ ul {
                         letter-spacing: 0.04em;
                         text-align: center;
                     }
-
                     pre {display: block;
                     font-family: monospace;
                     white-space: pre;
@@ -441,14 +433,12 @@ ul {
                         padding:1px;
                         font-weight:normal;
                     }
-
                     .interno {
                     font-family: verdana;
                     font-style: italic;
                     color: #395C73;
                     font-size: 24px;    
                     }
-
 a {
   color: #42b983;
 }

@@ -603,7 +603,7 @@ d3.select("body").selectAll("div")
         return barHeight + "px";
     });</pre>
 
-<p id="it_might_be_har">It might be hard to imagine, but we can definitely improve on the simple bar chart in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Bar_chart_with_divs" title="Figure 6-13. Bar chart with divs">Figure 6-13</a> made of <code class="literal">div</code>s.</p>
+<p id="it_might_be_har">It might be hard to imagine, but we can definitely improve on the simple bar chart in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Bar_chart_with_divs" title="Figure 6-13. Bar chart with divs">Figure 6-13</a> made of <code class="literal">div</code>s.</p>
 <p class="it">Puede ser que sea difícil de imaginar, pero sin duda puede mejorar el simple gráfico de barras hecho de divs en la figura 6-13.</p>
 
     <div class="figure" id="Bar_chart_with_divs">
@@ -618,7 +618,7 @@ d3.select("body").selectAll("div")
 
       </div>
 
-<p class="p">Figure 6-13. Bar chart with <code class="literal">div</code>s</p>
+<p class="p">Figure 6-13. Bar chart with <code class="literal">div</code>s</p>
 
     </div>
 
@@ -681,10 +681,10 @@ var svg = d3.select("body")
 
 <p class="it">A continuación, <code class="literal">data(dataset)</code> ve que tenemos 20 valores del conjunto de datos, y esos valores son entregados fuera por <code class="literal">enter()</code>  para su procesamiento. <code class="literal">enter()</code> , a su vez, devuelve una selección de marcadores de posición para cada punto de datos que aún no cuenta con un rect correspondiente - es decir, todos ellos.</p>
 
-    <p id="for_each_of_the">For each of the 20 placeholders, <code class="literal">append("rect")</code> inserts a <code class="literal">rect</code> into the DOM. As we learned in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch03.html" title="Chapter 3. Technology Fundamentals">Chapter 3</a>, every <code class="literal">rect</code> must have <code class="literal">x</code>, <code class="literal">y</code>, <code class="literal">width</code>, and <code class="literal">height</code> values. We use <code class="literal">attr()</code> to add those attributes onto each newly created <code class="literal">rect</code>.</p>
+    <p id="for_each_of_the">For each of the 20 placeholders, <code class="literal">append("rect")</code> inserts a <code class="literal">rect</code> into the DOM. As we learned in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch03.html" title="Chapter 3. Technology Fundamentals">Chapter 3</a>, every <code class="literal">rect</code> must have <code class="literal">x</code>, <code class="literal">y</code>, <code class="literal">width</code>, and <code class="literal">height</code> values. We use <code class="literal">attr()</code> to add those attributes onto each newly created <code class="literal">rect</code>.</p>
 
 <p class="it">Para cada uno de los 20 marcadores de posición, append ( "rect") inserta un rect en el DOM. Como aprendimos en el capítulo 3, cada rect debe tener x, y, ancho, y los valores de altura. Utilizamos attr() para agregar estos atributos en cada rect recién creado.
-    </p><p id="beautiful_no_">Beautiful, no? Okay, maybe not. All of the bars are there (check the DOM of <span class="emphasis"><em>13_making_a_bar_chart_rects.html</em></span> with your web inspector), but they all share the same <code class="literal">x</code>, <code class="literal">y</code>, <code class="literal">width</code>, and <code class="literal">height</code> values, with the result that they all overlap (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#One_lonely_bar" title="Figure 6-14. One lonely bar">Figure 6-14</a>). This isn’t a visualization of data yet.</p>
+    </p><p id="beautiful_no_">Beautiful, no? Okay, maybe not. All of the bars are there (check the DOM of <span class="emphasis"><em>13_making_a_bar_chart_rects.html</em></span> with your web inspector), but they all share the same <code class="literal">x</code>, <code class="literal">y</code>, <code class="literal">width</code>, and <code class="literal">height</code> values, with the result that they all overlap (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#One_lonely_bar" title="Figure 6-14. One lonely bar">Figure 6-14</a>). This isn’t a visualization of data yet.</p>
 <p class="it">Hermoso, ¿no? De acuerdo, tal vez no. Todas las barras están allí (marque el DOM de 13_making_a_bar_chart_rects.html con su web a inspeccionar o), pero todos comparten las mismas propiedades x, y, ancho, y los valores de altura, con el resultado de que todos ellos se solapan (véase la Figura 6-14 ). Esto no es visualización de datos aún.</p>
 
     <div class="figure" id="One_lonely_bar">
@@ -703,7 +703,7 @@ var svg = d3.select("body")
 
 
 
-      <p class="p">Figure 6-14. One lonely bar</p>
+      <p class="p">Figure 6-14. One lonely bar</p>
 <p class="it">Figura 6-14. Una barra solitaria</p>
 
     </div>
@@ -714,7 +714,7 @@ var svg = d3.select("body")
     return i * 21;  //Bar width of 20 plus 1 for padding. // Ancho de barra de 20 más 1 para relleno
 })</pre>
 
-    <p id="see_that_code_i_id2">See that code in action with <span class="emphasis"><em>14_making_a_bar_chart_offset.html</em></span> and the result in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Twenty_bars" title="Figure 6-15. Twenty bars">Figure 6-15</a>.</p>
+    <p id="see_that_code_i_id2">See that code in action with <span class="emphasis"><em>14_making_a_bar_chart_offset.html</em></span> and the result in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Twenty_bars" title="Figure 6-15. Twenty bars">Figure 6-15</a>.</p>
 
 <p class="it">Vemos este código en acción en <span class="emphasis"><em>14_making_a_bar_chart_offset.html</em></span> y el resultado en la figura 6-15.</p>
 
@@ -730,12 +730,12 @@ var svg = d3.select("body")
 
       </div>
 
-      <p class="p">Figure 6-15. Twenty bars</p>
+      <p class="p">Figure 6-15. Twenty bars</p>
 
 
     </div>
 
-    <p id="that_works_but">That works, but it’s not particularly flexible. If our dataset were longer, then the bars would just run off to the right, past the end of the SVG! Because each bar is 20 pixels wide, plus 1 pixel of padding, a 500-pixel wide SVG can only accommodate 23 data points. Note how the 24th bar gets clipped in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Twentyfour_bars" title="Figure 6-16. Twenty-four bars">Figure 6-16</a>.</p>
+    <p id="that_works_but">That works, but it’s not particularly flexible. If our dataset were longer, then the bars would just run off to the right, past the end of the SVG! Because each bar is 20 pixels wide, plus 1 pixel of padding, a 500-pixel wide SVG can only accommodate 23 data points. Note how the 24th bar gets clipped in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Twentyfour_bars" title="Figure 6-16. Twenty-four bars">Figure 6-16</a>.</p>
 <p class="it">Esto funciona, pero no es especialmente flexible. Si nuestro conjunto de datos fuera más largo, a continuación, las barras simplemente correrían hacia la derecha, más allá del final de la SVG! Debido a que cada barra es de 20 píxeles de ancho, además de 1 píxel de relleno, una amplia SVG 500 píxeles sólo puede acomodar a 23 puntos de datos. Nótese cómo la barra 24 se recorta en la figura 6-16.</p>
 
     <div class="figure" id="Twentyfour_bars">
@@ -750,7 +750,7 @@ var svg = d3.select("body")
 
       </div>
 
-      <p class="p">Figure 6-16. Twenty-four bars</p>
+      <p class="p">Figure 6-16. Twenty-four bars</p>
 
 
     </div>
@@ -765,7 +765,7 @@ var svg = d3.select("body")
     return i * (w / dataset.length);
 })</pre>
 
-    <p id="notice_how_the__id3">Notice how the <code class="literal">x</code> value is now tied directly to the width of the SVG (<code class="literal">w</code>) and the number of values in the dataset (<code class="literal">dataset.length</code>). This is exciting because now our bars will be evenly spaced, whether we have 20 data values, as in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Twenty_evenly_spaced_bars" title="Figure 6-17. Twenty evenly spaced bars">Figure 6-17</a>.</p>
+    <p id="notice_how_the__id3">Notice how the <code class="literal">x</code> value is now tied directly to the width of the SVG (<code class="literal">w</code>) and the number of values in the dataset (<code class="literal">dataset.length</code>). This is exciting because now our bars will be evenly spaced, whether we have 20 data values, as in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Twenty_evenly_spaced_bars" title="Figure 6-17. Twenty evenly spaced bars">Figure 6-17</a>.</p>
 <p class="it">Nótese cómo el valor de <code class="literal">x</code> está ligado directamente a la anchura de la <code>SVG (w)</code> y al número de valores en el conjunto de datos (<code class="literal">dataset.length</code>). Esto es emocionante porque ahora se espacian uniformemente nuestras bars, si tenemos 20 valores de datos, como en la figura 6-17.</p>
 
     <div class="figure" id="Twenty_evenly_spaced_bars">
@@ -780,12 +780,12 @@ var svg = d3.select("body")
 
       </div>
 
-      <p class="p">Figure 6-17. Twenty evenly spaced bars</p>
+      <p class="p">Figure 6-17. Twenty evenly spaced bars</p>
       <p class="it">Figura 6-17. Veinte barras espaciadas uniformemente</p>
 
     </div>
 
-    <p id="or_only_five_a">Or only five, as in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Five_evenly_spaced_bars" title="Figure 6-18. Five evenly spaced bars">Figure 6-18</a>.</p>
+    <p id="or_only_five_a">Or only five, as in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Five_evenly_spaced_bars" title="Figure 6-18. Five evenly spaced bars">Figure 6-18</a>.</p>
     <div class="figure" id="Five_evenly_spaced_bars">
 
       <div class="figure-contents">
@@ -798,7 +798,7 @@ var svg = d3.select("body")
 
       </div>
 
-      <p class="p">Figure 6-18. Five evenly spaced bars</p>
+      <p class="p">Figure 6-18. Five evenly spaced bars</p>
 
     </div>
 
@@ -819,7 +819,7 @@ var barPadding = 1;  // &lt;-- New!</pre>
 
     <pre class="programlisting" data-language="javascript" id="attrwidth__id1">.attr("width", w / dataset.length - barPadding)</pre>
 
-    <p id="it_works_see_">It works! (See <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Twenty_evenly_spaced_bars_with_dynamic_widths" title="Figure 6-19. Twenty evenly spaced bars with dynamic widths">Figure 6-19</a> and <span class="emphasis"><em>16_making_a_bar_chart_widths.html</em></span>.)</p>
+    <p id="it_works_see_">It works! (See <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Twenty_evenly_spaced_bars_with_dynamic_widths" title="Figure 6-19. Twenty evenly spaced bars with dynamic widths">Figure 6-19</a> and <span class="emphasis"><em>16_making_a_bar_chart_widths.html</em></span>.)</p>
 
     <div class="figure" id="Twenty_evenly_spaced_bars_with_dynamic_widths">
 
@@ -833,11 +833,11 @@ var barPadding = 1;  // &lt;-- New!</pre>
 
       </div>
 
-      <p class="p">Figure 6-19. Twenty evenly spaced bars with dynamic widths</p>
+      <p class="p">Figure 6-19. Twenty evenly spaced bars with dynamic widths</p>
 
     </div>
 
-    <p id="the_bar_widths">The bar widths and x positions scale correctly whether there are 20 points, only 5 (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Five_evenly_spaced_bars_with_dynamic_widths" title="Figure 6-20. Five evenly spaced bars with dynamic widths">Figure 6-20</a>), or even 100 (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#One_hundred_evenly_spaced_bars_with_dynamic_widths" title="Figure 6-21. One hundred evenly spaced bars with dynamic widths">Figure 6-21</a>).</p>
+    <p id="the_bar_widths">The bar widths and x positions scale correctly whether there are 20 points, only 5 (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Five_evenly_spaced_bars_with_dynamic_widths" title="Figure 6-20. Five evenly spaced bars with dynamic widths">Figure 6-20</a>), or even 100 (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#One_hundred_evenly_spaced_bars_with_dynamic_widths" title="Figure 6-21. One hundred evenly spaced bars with dynamic widths">Figure 6-21</a>).</p>
 <p class="it">Los anchos de las barras y las posiciones <strong>x</strong> escalan correctamente si existen 20 puntos, solamente  5 (ver Figura 6-20), o incluso 100 (véase la figura 6-21).</p>
 
     <div class="figure" id="Five_evenly_spaced_bars_with_dynamic_widths">
@@ -852,7 +852,7 @@ var barPadding = 1;  // &lt;-- New!</pre>
 
       </div>
 
-      <p class="p">Figure 6-20. Five evenly spaced bars with dynamic widths</p>
+      <p class="p">Figure 6-20. Five evenly spaced bars with dynamic widths</p>
 
     </div>
 
@@ -868,7 +868,7 @@ var barPadding = 1;  // &lt;-- New!</pre>
 
       </div>
 
-      <p class="p">Figure 6-21. One hundred evenly spaced bars with dynamic widths</p>
+      <p class="p">Figure 6-21. One hundred evenly spaced bars with dynamic widths</p>
       <p class="it">Figura 6-21. Cien barras espaciadas uniformemente con anchos dinámicos</p>
 
     </div>
@@ -881,7 +881,7 @@ var barPadding = 1;  // &lt;-- New!</pre>
     return d;
 });</pre>
 
-    <p id="hmm_the_chart_">Hmm, the chart in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Dynamic_heights" title="Figure 6-22. Dynamic heights">Figure 6-22</a> looks funky. Maybe we can just scale up our numbers a bit?</p>
+    <p id="hmm_the_chart_">Hmm, the chart in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Dynamic_heights" title="Figure 6-22. Dynamic heights">Figure 6-22</a> looks funky. Maybe we can just scale up our numbers a bit?</p>
 
     <pre class="programlisting" data-language="javascript" id="attrheight_id2">.attr("height", function(d) {
     return d * 4;  // &lt;-- Times four!
@@ -899,9 +899,9 @@ var barPadding = 1;  // &lt;-- New!</pre>
 
       </div>
 
-      <p class="p">Figure 6-22. Dynamic heights</p>
+      <p class="p">Figure 6-22. Dynamic heights</p>
 </div>
-    <p id="alas_it_is_not">Alas, it is not that easy! We want our bars to grow upward from the bottom edge, not down from the top, as in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Dynamic_heights_magnified" title="Figure 6-23. Dynamic heights, magnified">Figure 6-23</a>—but don’t blame D3, blame SVG.</p>
+    <p id="alas_it_is_not">Alas, it is not that easy! We want our bars to grow upward from the bottom edge, not down from the top, as in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Dynamic_heights_magnified" title="Figure 6-23. Dynamic heights, magnified">Figure 6-23</a>—but don’t blame D3, blame SVG.</p>
 
 <p class="it">Por desgracia, no es así de fácil! Queremos que nuestras barras crezcan hacia arriba desde el borde inferior, no hacia abajo desde la parte superior, como en la figura 6-23 - pero no es culpa de D3, es culpa de SVG.
     </p><div class="figure" id="Dynamic_heights_magnified">
@@ -912,7 +912,7 @@ var barPadding = 1;  // &lt;-- New!</pre>
 
       </div>
 
-      <p class="p">Figure 6-23. Dynamic heights, magnified</p>
+      <p class="p">Figure 6-23. Dynamic heights, magnified</p>
 <p class="it">Figura 6-23. Alturas dinámicas, magnificada</p>
 
     </div>
@@ -927,7 +927,7 @@ var barPadding = 1;  // &lt;-- New!</pre>
     return h - d;  //Height minus data value. Altura menos valor de datos
 })</pre>
 
-    <p id="then_to_put_th">Then, to put the “bottom” of the bar on the bottom of the SVG (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Growing_down_from_above" title="Figure 6-24. Growing down from above">Figure 6-24</a>), each <code class="literal">rect</code>’s height can be just the data value itself:</p>
+    <p id="then_to_put_th">Then, to put the “bottom” of the bar on the bottom of the SVG (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Growing_down_from_above" title="Figure 6-24. Growing down from above">Figure 6-24</a>), each <code class="literal">rect</code>’s height can be just the data value itself:</p>
 <p class="it">A continuación, poner el "bottom" de la barra en la parte inferior de la SVG (ver Figura 6-24) la altura de cada rect puede ser sólo el valor de los datos en sí:
 
     </p><pre class="programlisting" data-language="javascript" id="attrheight_id3">.attr("height", function(d) {
@@ -942,12 +942,12 @@ var barPadding = 1;  // &lt;-- New!</pre>
 
       </div>
 
-      <p class="p">Figure 6-24. Growing down from above</p>
+      <p class="p">Figure 6-24. Growing down from above</p>
 <p class="it">Figura 6-24. Creciente desde arriba
 
     </p></div>
 
-    <p id="lets_scale_thi">Let’s scale things up a bit by changing <code class="literal">d</code> to <code class="literal">d * 4</code>, with the result shown in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Growing_bigger_from_above" title="Figure 6-25. Growing bigger from above">Figure 6-25</a>. (Just as with the bar placements, this can be done more properly using D3 scales, but we’re not there yet.)</p>
+    <p id="lets_scale_thi">Let’s scale things up a bit by changing <code class="literal">d</code> to <code class="literal">d * 4</code>, with the result shown in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Growing_bigger_from_above" title="Figure 6-25. Growing bigger from above">Figure 6-25</a>. (Just as with the bar placements, this can be done more properly using D3 scales, but we’re not there yet.)</p>
 
 <p class="it">Escalemos un poco cambiando <strong>d</strong> a <strong>d * 4</strong>, con el resultado que se muestra en la Figura 6-25. (Al igual que con las colocaciones de barras, esto se puede hacer más adecuadamente mediante escalas D3, pero no llegamos allí todavía.)</p>
     <div class="figure" id="Growing_bigger_from_above">
@@ -958,7 +958,7 @@ var barPadding = 1;  // &lt;-- New!</pre>
 
       </div>
 
-      <p class="p">Figure 6-25. Growing bigger from above</p>
+      <p class="p">Figure 6-25. Growing bigger from above</p>
 <p class="it">Figura 6-25. Cada vez más grande hacía lo alto</p>
 
     </div>
@@ -1244,7 +1244,7 @@ selection.attrs({foo: "foo-value", bar: function(d) { return d.bar; }});</pre>
         return h - (d * 4);
    });</pre>
 
-    <p id="aha_value_labe">Aha! Value labels! But some are getting cut off at the top (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Baby_value_labels" title="Figure 6-28. Baby value labels!">Figure 6-28</a>).</p>
+    <p id="aha_value_labe">Aha! Value labels! But some are getting cut off at the top (see <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Baby_value_labels" title="Figure 6-28. Baby value labels!">Figure 6-28</a>).</p>
 <p class="it">Aha! Las etiquetas de valor! Pero algunas están siendo cortadas en la parte superior (ver Figura 6-28).</p>
 
     <div class="figure" id="Baby_value_labels">
@@ -1255,7 +1255,7 @@ selection.attrs({foo: "foo-value", bar: function(d) { return d.bar; }});</pre>
 
       </div>
 
-      <p class="p">Figure 6-28. Baby value labels!</p>
+      <p class="p">Figure 6-28. Baby value labels!</p>
 
     </div>
 
@@ -1269,7 +1269,7 @@ selection.attrs({foo: "foo-value", bar: function(d) { return d.bar; }});</pre>
         return h - (d * 4) + 15;              // Le sumo 15
    });</pre>
 
-    <p id="the_chart_in_iswewe">The chart in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Inbar_value_labels" title="Figure 6-29. In-bar value labels">Figure 6-29</a> is better, but not legible.</p>
+    <p id="the_chart_in_iswewe">The chart in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Inbar_value_labels" title="Figure 6-29. In-bar value labels">Figure 6-29</a> is better, but not legible.</p>
 
 
     <div class="figure" id="Inbar_value_labels1">
@@ -1280,7 +1280,7 @@ selection.attrs({foo: "foo-value", bar: function(d) { return d.bar; }});</pre>
 
       </div>
 
-      <p class="p">Figure 6-29. In-bar value labels</p>
+      <p class="p">Figure 6-29. In-bar value labels</p>
 
 
     </div>
@@ -1292,7 +1292,7 @@ selection.attrs({foo: "foo-value", bar: function(d) { return d.bar; }});</pre>
    .attr("font-size", "11px")
    .attr("fill", "white");</pre>
 
-    <p id="fantasticode_">Fantasti-code! See <span class="emphasis"><em>20_making_a_bar_chart_labels.html</em></span> for the brilliant visualization shown in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Really_nice_value_labels" title="Figure 6-30. Really nice value labels">Figure 6-30</a>.</p>
+    <p id="fantasticode_">Fantasti-code! See <span class="emphasis"><em>20_making_a_bar_chart_labels.html</em></span> for the brilliant visualization shown in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Really_nice_value_labels" title="Figure 6-30. Really nice value labels">Figure 6-30</a>.</p>
 
 
     <div class="figure" id="Really_nice_value_labels">
@@ -1303,7 +1303,7 @@ selection.attrs({foo: "foo-value", bar: function(d) { return d.bar; }});</pre>
 
       </div>
 
-      <p class="p">Figure 6-30. Really nice value labels</p>
+      <p class="p">Figure 6-30. Really nice value labels</p>
 
 
     </div>
@@ -1320,7 +1320,7 @@ selection.attrs({foo: "foo-value", bar: function(d) { return d.bar; }});</pre>
         return i * (w / dataset.length) + (w / dataset.length - barPadding) / 2;
     })</pre>
 
-    <p id="and_ill_also_b">And I’ll also bring the labels up one pixel for perfect spacing, as you can see in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Centered_labels" title="Figure 6-31. Centered labels">Figure 6-31</a> and <span class="emphasis"><em>21_making_a_bar_chart_aligned.html</em></span>:</p>
+    <p id="and_ill_also_b">And I’ll also bring the labels up one pixel for perfect spacing, as you can see in <a class="xref" href="http://chimera.labs.oreilly.com/books/1230000000345/ch06.html#Centered_labels" title="Figure 6-31. Centered labels">Figure 6-31</a> and <span class="emphasis"><em>21_making_a_bar_chart_aligned.html</em></span>:</p>
 <p class="it">Y voy a traer también las etiquetas hasta un píxel para el espaciamiento perfecto, como se puede ver en la figura 6-31 y <span class="emphasis"><em>21_making_a_bar_chart_aligned.html</em></span></p>
 
     <pre class="programlisting" data-language="javascript" id="attry_func_id2">    .attr("y", function(d) {
@@ -1334,7 +1334,7 @@ selection.attrs({foo: "foo-value", bar: function(d) { return d.bar; }});</pre>
         <div class="mediaobject"><em class="dotEPUBProtected"> <img alt="Imagen" src="/static/Fig631.png" /> </em></div>
 
       </div>
-      <p class="p">Figure 6-31. Centered labels</p>
+      <p class="p">Figure 6-31. Centered labels</p>
 
 
     </div>
@@ -1570,7 +1570,6 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-
 .block {
                           border-radius: 4px;
                           overflow: hidden;
@@ -1591,7 +1590,6 @@ ul {
                           color: #2D0D0D;
                           line-height: 1.1;
                           padding: 4.7em;
-
 }
                 .programlisting {
                           border-radius: 2px;
@@ -1617,17 +1615,14 @@ ul {
                           text-align: left;
                           font-size: 25px;
 }
-
                 .home {
                         margin: 1.5em 0;
                         
                     }
-
                     h1 {
                         color: #867452;
                         font-size: 60px;
                     }
-
                     h2 {
                         color: #867452;
                         font-size: 40px;
@@ -1641,8 +1636,6 @@ ul {
                         color: #867452;
                         font-size: 25px;
                     }
-
-
                     .it {
                         color: brown;
                         font-size: 24px;
@@ -1663,7 +1656,6 @@ ul {
                         letter-spacing: 0.04em;
                         text-align: center;
                     }
-
                     pre {display: block;
                     font-family: monospace;
                     white-space: pre;
@@ -1677,14 +1669,12 @@ ul {
                         padding:1px;
                         font-weight:normal;
                     }
-
                     .interno {
                     font-family: verdana;
                     font-style: italic;
                     color: #395C73;
                     font-size: 24px;    
                     }
-
 a {
   color: #42b983;
 }

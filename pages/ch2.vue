@@ -7,7 +7,7 @@
 
     <div class="titlepage">
 
-         <h1 class="title">Chapter 2. Introducing D3</h1>
+         <h1 class="title">Chapter 2. Introducing D3</h1>
 
   </div>
 
@@ -440,7 +440,6 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-
 .block {
                           border-radius: 4px;
                           overflow: hidden;
@@ -461,7 +460,6 @@ ul {
                           color: #2D0D0D;
                           line-height: 1.1;
                           padding: 4.7em;
-
 }
                 .programlisting {
                           border-radius: 2px;
@@ -487,17 +485,14 @@ ul {
                           text-align: left;
                           font-size: 25px;
 }
-
                 .home {
                         margin: 1.5em 0;
                         
                     }
-
                     h1 {
                         color: #867452;
                         font-size: 60px;
                     }
-
                     h2 {
                         color: #867452;
                         font-size: 40px;
@@ -511,8 +506,6 @@ ul {
                         color: #867452;
                         font-size: 25px;
                     }
-
-
                     .it {
                         color: brown;
                         font-size: 24px;
@@ -533,7 +526,6 @@ ul {
                         letter-spacing: 0.04em;
                         text-align: center;
                     }
-
                     pre {display: block;
                     font-family: monospace;
                     white-space: pre;
@@ -547,14 +539,12 @@ ul {
                         padding:1px;
                         font-weight:normal;
                     }
-
                     .interno {
                     font-family: verdana;
                     font-style: italic;
                     color: #395C73;
                     font-size: 24px;    
                     }
-
 a {
   color: #42b983;
 }
